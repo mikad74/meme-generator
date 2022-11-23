@@ -1,0 +1,60 @@
+:root {
+  --header-start-color: #6c2386;
+  --header-end-color: #a626d3;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text,
+.header-title,
+.header {
+  height: 65px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    var(--header-start-color),
+    var(--header-end-color)
+  );
+}
+
+.header-title,
+.header-text {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin-left: 20px;
+}
+
+.header-title > span {
+  margin-left: 6.69px;
+  font-style: "normal";
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.header-text {
+  margin-right: 37px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.header img {
+  max-height: 26.22px;
+}
